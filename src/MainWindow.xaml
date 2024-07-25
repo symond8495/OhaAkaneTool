@@ -8,8 +8,17 @@
         Title="OhaAkaneTool"
         WindowStyle="ToolWindow"
         SizeToContent="WidthAndHeight">
-    <Grid Margin="10,5,10,5">
-        <StackPanel>
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <TextBlock x:Name="CopyNotification"/>
+        </StatusBar>
+        <StackPanel  Margin="10,5,10,5">
             <DockPanel >
                 <StackPanel Orientation="Horizontal" Margin="5">
                     <Button x:Name="Oha" Height="50" Width="50" Margin="0,0,5,0" Click="Greeting"/>
@@ -20,11 +29,11 @@
             <DockPanel HorizontalAlignment="Center" Margin="0,0,0,5">
                 <StackPanel Orientation="Horizontal" Width="auto">
                     <Label Content="アカネの数" Margin="0,0,10,0" />
-                    <Slider x:Name="AkaneBar" TickPlacement="Both" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Minimum="1" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" Value="10"/>
+                    <Slider x:Name="AkaneBar" TickPlacement="Both" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center" Minimum="1" Maximum="10" IsSnapToTickEnabled="True" TickFrequency="1" Value="1"/>
                     <Label x:Name="SliderCounter" Content="{Binding ElementName=AkaneBar, Path=Value}" Width="23" HorizontalAlignment="Right" VerticalAlignment="Center"/>
                 </StackPanel>
             </DockPanel>
-            <TextBox x:Name="ResultText" />
+            <TextBox x:Name="ResultTextBox" Width="180" MaxWidth="180" IsReadOnly="True" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
         </StackPanel>
-    </Grid>
+    </DockPanel>
 </Window>

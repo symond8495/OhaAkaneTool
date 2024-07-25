@@ -30,17 +30,21 @@ namespace OhaAkaneTool
             // ふるまいは一緒なのでメソッド統一
             Dictionary<string, string> greeting = new Dictionary<string, string>
             {
-                { "Oha", ":oha: :akane: " },
-                { "Kon", ":kon:  :akane: " },
-                { "Otu", ":otu: :akane: " },
+                { "Oha", ":oha: " },
+                { "Kon", ":kon: " },
+                { "Otu", ":otu: " },
             };
 
             Button greetingButton = (Button)sender;
 
+            // あかねの数だけあかねを追加 by Copilot
             int akaneCount = int.Parse(AkaneBar.Value.ToString());
-            string message = ($"{greeting[greetingButton.Name]}{new StringBuilder("yatta: ".Length * 3).Insert(0, "yatta: ", akaneCount).ToString()}");
+            string message = ($"{greeting[greetingButton.Name]}:akane: {new StringBuilder(":yatta: ".Length * 3).Insert(0, ":yatta: ", akaneCount).ToString()}");
 
-            ResultText.Text = message;
+            ResultTextBox.Text = message;
+            Clipboard.SetText(message);
+
+            CopyNotification.Text = $"{greeting[greetingButton.Name]} をクリップボードにコピーしました";
         }
     }
 }

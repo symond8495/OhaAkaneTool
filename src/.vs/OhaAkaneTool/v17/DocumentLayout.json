@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\symond\\Documents\\GitHub\\OhaAkaneTool\\src\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAABAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T05:41:46.755Z",
               "EditorCaption": ""
@@ -43,8 +43,8 @@
       "FloatingWindowState": {
         "Id": "12ad7cbe-1c9e-48ea-af7e-36e79513638f",
         "Display": 0,
-        "X": 621,
-        "Y": 110,
+        "X": 135,
+        "Y": 172,
         "Width": 1180,
         "Height": 792,
         "WindowState": 0
