@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OhaAkaneTool"
         mc:Ignorable="d"
-        Title="OhaAkaneTool"
-        WindowStyle="ToolWindow"
+        Title="おはあかねえツール"
+        ResizeMode="NoResize"
         SizeToContent="WidthAndHeight">
     <DockPanel>
         <StatusBar DockPanel.Dock="Bottom">
@@ -21,9 +21,15 @@
         <StackPanel  Margin="10,5,10,5">
             <DockPanel >
                 <StackPanel Orientation="Horizontal" Margin="5">
-                    <Button x:Name="Oha" Height="50" Width="50" Margin="0,0,5,0" Click="Greeting"/>
-                    <Button x:Name="Kon" Height="50" Width="50" Margin="5,0,5,0" Click="Greeting"/>
-                    <Button x:Name="Otu" Height="50" Width="50" Margin="5,0,0,0" Click="Greeting"/>
+                    <Button x:Name="Oha" Height="50" Width="50" Margin="0,0,5,0" Click="Greeting">
+                        <Image Source="img/Oha.png" Width="50" Height="50"/>
+                    </Button>
+                    <Button x:Name="Kon" Height="50" Width="50" Margin="5,0,5,0" Click="Greeting">
+                        <Image Source="img/Kon.png" Width="50" Height="50"/>
+                    </Button>
+                    <Button x:Name="Otu" Height="50" Width="50" Margin="5,0,0,0" Click="Greeting">
+                        <Image Source="img/Otu.png" Width="50" Height="50"/>
+                    </Button>
                 </StackPanel>
             </DockPanel>
             <DockPanel HorizontalAlignment="Center" Margin="0,0,0,5">

@@ -44,7 +44,7 @@ namespace OhaAkaneTool
             ResultTextBox.Text = message;
             Clipboard.SetText(message);
 
-            CopyNotification.Text = $"{greeting[greetingButton.Name]} をクリップボードにコピーしました";
+            CopyNotification.Text = $"{greeting[greetingButton.Name]} をクリップボードにコピーしました。";
         }
     }
 }
