@@ -1,0 +1,15 @@
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\bin\Release\OhaAkaneTool.exe.config
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\bin\Release\OhaAkaneTool.exe
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\bin\Release\OhaAkaneTool.pdb
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool.csproj.AssemblyReference.cache
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\MainWindow.g.cs
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\App.g.cs
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool_MarkupCompile.cache
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool_MarkupCompile.lref
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\MainWindow.baml
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool.g.resources
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool.Properties.Resources.resources
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool.csproj.GenerateResource.cache
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool.csproj.CoreCompileInputs.cache
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool.exe
+C:\Users\symond\Documents\GitHub\OhaAkaneTool\src\obj\Release\OhaAkaneTool.pdb
