@@ -3,18 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\symond\\Documents\\GitHub\\OhaAkaneTool\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8401E6FC-A1E6-446A-8745-ABF52D36A182}|OhaAkaneTool.csproj|c:\\users\\symond\\documents\\github\\ohaakanetool\\src\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8401E6FC-A1E6-446A-8745-ABF52D36A182}|OhaAkaneTool.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8401E6FC-A1E6-446A-8745-ABF52D36A182}|OhaAkaneTool.csproj|c:\\users\\symond\\documents\\github\\ohaakanetool\\src\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8401E6FC-A1E6-446A-8745-ABF52D36A182}|OhaAkaneTool.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|OhaAkaneTool||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{8401E6FC-A1E6-446A-8745-ABF52D36A182}|OhaAkaneTool.csproj|c:\\users\\symond\\documents\\github\\ohaakanetool\\src\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8401E6FC-A1E6-446A-8745-ABF52D36A182}|OhaAkaneTool.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8401E6FC-A1E6-446A-8745-ABF52D36A182}|OhaAkaneTool.csproj|c:\\users\\symond\\documents\\github\\ohaakanetool\\src\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|OhaAkaneTool||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,18 +32,17 @@
               "ToolTip": "C:\\Users\\symond\\Documents\\GitHub\\OhaAkaneTool\\src\\OhaAkaneTool.csproj",
               "RelativeToolTip": "OhaAkaneTool.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-25T07:25:00.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T07:25:00.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\symond\\Documents\\GitHub\\OhaAkaneTool\\src\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\symond\\Documents\\GitHub\\OhaAkaneTool\\src\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T05:41:46.755Z",
               "EditorCaption": ""
@@ -74,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\symond\\Documents\\GitHub\\OhaAkaneTool\\src\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
